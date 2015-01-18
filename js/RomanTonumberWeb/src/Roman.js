@@ -1,13 +1,13 @@
-function Roman(number) {
+function getRomanToNumber(roman) {
 
 var chiffre = 0	
-	if (number == "I"){
+	if (roman.length == 1){
 		chiffre = 1
 
-	} else if (number == "II"){
+	}if (roman.length == 2){
 		chiffre = 2	
 
-	} else {
+	}if(roman.length == 3){
 		chiffre = 3
 	}
 
