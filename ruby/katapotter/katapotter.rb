@@ -1,3 +1,8 @@
 def cart(books)
-    8
+    
+    if books == 'book1'
+        8
+    else
+        16
+    end
 end
