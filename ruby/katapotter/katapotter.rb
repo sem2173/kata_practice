@@ -17,3 +17,5 @@ amount = 0
     return amount
     
 end
+
+# si la longueur de books est supérieur à 1 l'indice de 0 different de 1
